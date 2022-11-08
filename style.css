@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-clara: #f2f2f2;
+    --cor-escura: #3A405A;
+    --cor-1: #FF9F1C;
+    --cor-1-clara: #FFBF69;
+    --cor-2: #2EC4B6;
+    --cor-2-clara: #CBF3F0;
+    --cor-text: #000;
+}
+
+body {
+  padding: none;
+  background-color: var(--cor-escura);
+  font-family: 'Poppins';
+}
+
+header {
+    padding-top: 2vh;
+    height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3vh;
+  font-family: 'Noto Serif';
+  font-size: 5rem;
+  text-decoration: none;
+  color: var(--cor-clara);
+  font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    color: var(--cor-clara);
+    font-size: 1.8rem;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--cor-clara);
+  font-size: 1.5rem;
+  margin-top: 2vh;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.secao {
+    display: flex;
+}
+
+.titulo {
+  width: 30vw;
+  padding: 10vh 5vw;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.texto {
+  width: 70vw;
+  color: var(--cor-texto);
+  padding: 5vh 5vw;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.esquerda {
+    text-align: right;
+}
+
+.direita {
+    text-align: left;
+}
+
+.laranja {
+    background-color: var(--cor-1);
+    color: var(--cor-texto);
+}
+
+.verde {
+    background-color: var(--cor-2);
+    color: var(--cor-texto);
+}
+
+.laranja-claro {
+    background-color: var(--cor-1-clara);
+}
+
+.verde-claro {
+    background-color: var(--cor-2-clara);
+}
+
+  
